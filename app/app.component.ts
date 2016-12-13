@@ -1,8 +1,12 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
+import { enableProdMode } from '@angular/core'
+enableProdMode()
 
 @Component({
-  selector: 'mw-app',
-  templateUrl: 'app/app.component.html',
-  styleUrls: ['app/app.component.css']
+    selector: 'mv-app',
+    templateUrl: 'app/app.component.html',
+    styleUrls: ['app/app.component.css']
 })
-export class AppComponent { }
+export class AppComponent {
+}
+
